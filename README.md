@@ -20,6 +20,13 @@ Main Software Components:
 1.	Arduino IDLE
 2.	ThingSpeak
 
-We have used flow sensor(YFS 201)by which we are measuring the quantity of the flowing liquid. This has been connected to Wifi Module: NodeMCU(ESP 8266) which uploads the data on ThingSpeak(an online open-source platform on which we can store this data). We have experimented upon the flow sensor and the readings obtained are seen through the NodeMCU and this reading can also be seen upon the serial monitor as well as online on ThingSpeak website.This code is in file FLOW_SENSOR_ONLINE_UPLOAD.ino file.
+FLOW_SENSOR_ONLINE_UPLOAD.ino:-
+We have used flow sensor(YFS 201)by which we are measuring the quantity of the flowing liquid. This has been connected to Wifi Module: NodeMCU(ESP 8266) which uploads the data on ThingSpeak(an online open-source platform on which we can store this data). We have experimented upon the flow sensor and the readings obtained are seen through the NodeMCU and this reading can also be seen upon the serial monitor as well as online on ThingSpeak website.
 
-We are taking readings from GPS(Global Positioning System) Module and printing them on serial moniter in Arduino IDLE software. This code is in GPS_MODULE.ino file
+GPS_MODULE.ino:-
+We are taking readings from GPS(Global Positioning System) Module and printing them on serial moniter in Arduino IDLE software.
+
+GSM_SEND_SMS.ino:-
+GSM(Global System for Mobile)is used to send the message to Mobile phone of the owners.
+
+Amount of liquid added in the fuel tank is recoded by Arduino NANO using flow sensor. Amount of fuel added is with the GPS coordinates are sent to the Mobile phone using GSM Module by Arduino and the fuel amount is shown on 7-segment dispaly on dashboard in real time.
