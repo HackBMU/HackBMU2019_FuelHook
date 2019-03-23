@@ -10,12 +10,12 @@ We intend to keep track of the GPS location of the times when the consumer refil
 This way the user will be able to access the exact location as well.
 
 Main Hardware Components:
-1.	Flow Sensor—to measure the amount of fuel filled in the automobile.
-2.	GPS Module—to provide real time location of the automobile.
-3.	Arduino—accepts data from Flow Sensor and GPS Module. 
-4.	GSM Module—takes input from Arduino and sends the data to the registered mobile number of the user.
-5.	7-segment display array—real time display of the amount of petrol filled as measured through the device.
+1.	Flow Sensor
+2.	GPS Module
+3.	Arduino
+4.	GSM Module
+5.	7-segment display array
 
 Main Software Components:
-1.	Arduino IDLE—Open-source Arduino Software (IDE).
-2.	ThingSpeak—Open Source IOT platform.
+1.	Arduino IDLE
+2.	ThingSpeak
