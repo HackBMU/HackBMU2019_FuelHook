@@ -30,8 +30,12 @@ We are taking readings from GPS(Global Positioning System) Module and printing t
 GSM(Global System for Mobile)is used to send the message to Mobile phone of the owners.
 
 
-**DEVICE_INSERTED:-**
+**DEVICE_INSERTED.ino:-**
 It is the complete code for sending the data from the vehicle to the user.
+
+
+**SERVER_DEVICE.ino:-**
+Data from the Device inserted is send to Server device using GSM Module and then it is uploaded on server.
 
 
 Amount of liquid added in the fuel tank is recoded by Arduino NANO using flow sensor. Amount of fuel added is with the GPS coordinates are sent to the Mobile phone using GSM Module by Arduino and the fuel amount is shown on 7-segment display on dashboard in real time.
